@@ -1,0 +1,28 @@
+@tailwind preflight;
+@tailwind components;
+
+.markdown h2 {
+	@apply font-bold text-black text-3xl leading-normal mb-6;
+}
+.markdown h3 {
+	@apply font-bold text-black text-2xl leading-normal mb-6;
+}
+.markdown p {
+	@apply text-grey-darkest text-lg leading-normal mb-6;
+}
+.markdown blockquote {
+	@apply font-serif italic text-grey-dark text-3xl leading-normal border-l-4 border-blue pl-4 mb-6;
+}
+.markdown ul {
+	@apply text-grey-darkest text-lg leading-normal mb-6;
+}
+.markdown li {
+	@apply mb-4;
+}
+.markdown pre {
+	@apply bg-grey-lighter border border-grey-light rounded-lg p-8 -mx-8 mb-6;
+}
+.markdown code {
+	@apply font-mono text-grey-darkest text-base leading-normal;
+}
+@tailwind utilities;

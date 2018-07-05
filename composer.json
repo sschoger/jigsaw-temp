@@ -1,0 +1,12 @@
+{
+    "name": "steveschoger/jigsaw-temp",
+    "authors": [
+        {
+            "name": "Steve Schoger",
+            "email": "sm.schoger@gmail.com"
+        }
+    ],
+    "require": {
+        "tightenco/jigsaw": "^1.2"
+    }
+}
